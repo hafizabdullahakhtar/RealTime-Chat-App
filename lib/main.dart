@@ -12,15 +12,31 @@ import 'screens/splash_screen.dart';
 //global object for accessing device screen size
 late Size mq;
 
+// Future<void> main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+
+//   //enter full-screen
+//   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+
+//   await _initializeFirebase();
+
+//   //for setting orientation to portrait only
+//   SystemChrome.setPreferredOrientations(
+//           [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
+//       .then((value) {
+//     runApp(const MyApp());
+//   });
+// }
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  //enter full-screen
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+  // Enter full-screen mode and hide the system navigation bar
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
 
   await _initializeFirebase();
 
-  //for setting orientation to portrait only
+  // Lock orientation to portrait mode
   SystemChrome.setPreferredOrientations(
           [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
       .then((value) {

@@ -47,31 +47,32 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBeszZHLYJNyjUhpujMH9yZ4ol9JqsAmPU',
-    appId: '1:288842837392:android:1353619813061d867a5715',
-    messagingSenderId: '288842837392',
-    projectId: 'we-chat-75f13',
-    storageBucket: 'we-chat-75f13.appspot.com',
+    apiKey: 'AIzaSyA4RZxt3gISBEi2bGt08fndXqkYzPpLQyA',
+    appId: '1:132050482758:android:df46ed022b1c81efa57c47',
+    messagingSenderId: '132050482758',
+    projectId: 'real-time-chat-a2558',
+    storageBucket: 'real-time-chat-a2558.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCCYZoZ5DvuitZJ7qK5iWM3ARHBDoFFriY',
-    appId: '1:288842837392:ios:f39c8dc31525a6687a5715',
-    messagingSenderId: '288842837392',
-    projectId: 'we-chat-75f13',
-    storageBucket: 'we-chat-75f13.appspot.com',
-    androidClientId: '288842837392-gvt1l790g0t1fmnurc5pmko3oss8b1tq.apps.googleusercontent.com',
-    iosClientId: '288842837392-sgib97u6439i4jte3bo19u00fh663euu.apps.googleusercontent.com',
-    iosBundleId: 'com.harshRajpurohit.weChat',
+    apiKey: 'AIzaSyAZdNWZT9VD90905WFN7zCCERowRp2n4gs',
+    appId: '1:132050482758:ios:290b69ab824c984ca57c47',
+    messagingSenderId: '132050482758',
+    projectId: 'real-time-chat-a2558',
+    storageBucket: 'real-time-chat-a2558.appspot.com',
+    androidClientId: '132050482758-otdm5p91phnfpro7390d5j44erj4liff.apps.googleusercontent.com',
+    iosClientId: '132050482758-hm1q7lel3m7j0883mott2q5bal6r8b65.apps.googleusercontent.com',
+    iosBundleId: 'com.example.realtimeChatApp',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBW-1MjB067GUwQHPnYmWkr_4iMz13UgRs',
-    appId: '1:288842837392:web:6ae5bafc6d7d4f407a5715',
-    messagingSenderId: '288842837392',
-    projectId: 'we-chat-75f13',
-    authDomain: 'we-chat-75f13.firebaseapp.com',
-    storageBucket: 'we-chat-75f13.appspot.com',
+    apiKey: 'AIzaSyCyDqbh7LMxPW0vkrhc77EjHcSbTRjpHa8',
+    appId: '1:132050482758:web:35f4922b6ff6466ca57c47',
+    messagingSenderId: '132050482758',
+    projectId: 'real-time-chat-a2558',
+    authDomain: 'real-time-chat-a2558.firebaseapp.com',
+    storageBucket: 'real-time-chat-a2558.appspot.com',
+    measurementId: 'G-V52J04GLTG',
   );
 
 }

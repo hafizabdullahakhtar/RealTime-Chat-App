@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:lottie/lottie.dart';
 
 import '../../../main.dart';
 import '../../api/apis.dart';
@@ -20,14 +21,14 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 4), () {
+      log('\nUser: ${APIs.auth.currentUser}');
+
       //exit full-screen
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
       SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
           systemNavigationBarColor: Colors.white,
           statusBarColor: Colors.white));
-
-      log('\nUser: ${APIs.auth.currentUser}');
 
       //navigate
       Navigator.pushReplacement(
@@ -48,18 +49,14 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       //body
       body: Stack(children: [
-        //app logo
-        Positioned(
-            top: mq.height * .15,
-            right: mq.width * .25,
-            width: mq.width * .5,
-            child: Image.asset('assets/images/icon.png')),
+        //lottie animation
+        Center(child: Lottie.asset('assets/lottie/splash_lottie.json')),
 
         //google login button
         Positioned(
             bottom: mq.height * .15,
             width: mq.width,
-            child: const Text('MADE IN INDIA WITH ❤️',
+            child: const Text('MADE BY ABDULLAH WITH ❤️',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontSize: 16, color: Colors.black87, letterSpacing: .5))),

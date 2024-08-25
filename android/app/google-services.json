@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "132050482758",
+    "project_id": "real-time-chat-a2558",
+    "storage_bucket": "real-time-chat-a2558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132050482758:android:df46ed022b1c81efa57c47",
+        "android_client_info": {
+          "package_name": "com.example.realtime_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132050482758-otdm5p91phnfpro7390d5j44erj4liff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtime_chat_app",
+            "certificate_hash": "356f1d6dd16b2b5edca3d87f915185eaaad27c4b"
+          }
+        },
+        {
+          "client_id": "132050482758-v709ik9ou2vu4hvgkgvmfckg20vo7gps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4RZxt3gISBEi2bGt08fndXqkYzPpLQyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132050482758-v709ik9ou2vu4hvgkgvmfckg20vo7gps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "132050482758-hm1q7lel3m7j0883mott2q5bal6r8b65.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.realtimeChatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
